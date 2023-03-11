@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="./src/assets/favicon.png" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/styles/style.css" />
+    <title>Github search</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="form">
+        <input id="input" type="text" placeholder="Finding GitHub repositories"/>
+        <button type="button" id="button">
+          <img
+            src="https://api.iconify.design/ic:sharp-search.svg"
+            alt="search"
+          />
+        </button>
+      </form>
+      <div id="wrapper"></div>
+    </div>
+    <script type="module" src="dist/bundle.js"></script>
+  </body>
+</html>
